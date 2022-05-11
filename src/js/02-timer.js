@@ -62,7 +62,7 @@ const options = {
      }
    },
  }
- 
+
  flatpickr(refs.inputDate, options);
 
 
@@ -75,7 +75,6 @@ if (differenceTime <= 0) {
 stopTimer();
  }}, 1000)
  }
-
 
 function updateComponentsTimer({ days, hours, minutes, seconds }) {
    refs.days.textContent = days;
